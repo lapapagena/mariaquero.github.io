@@ -98,8 +98,8 @@ body {
 /* RESPONSIVE */
 @media (min-width: 768px) {
     .projects {
-        grid-template-columns: repeat(2, 3fr);
-        gap: 20px;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 60px;
     }
 }
 
