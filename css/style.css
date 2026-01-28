@@ -23,7 +23,7 @@ body {
 /* LOGO */
 .logo {
     display: block;
-    width: auto; /* TAMAÑO REAL */
+    width: 120px; /* TAMAÑO REAL */
     height: auto;
     max-width: 120px; /* MUY IMPORTANTE */
 }
