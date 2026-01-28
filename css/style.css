@@ -25,7 +25,7 @@ body {
     display: block;
     width: 300px; /* TAMAÑO REAL */
     height: auto;
-    max-width: 300px; /* MUY IMPORTANTE */
+    max-width: auto; /* MUY IMPORTANTE */
 }
 
 /* INTRO */
