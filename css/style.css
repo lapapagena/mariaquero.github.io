@@ -54,7 +54,6 @@ body {
     text-decoration: none;
     color: inherit;
     overflow: hidden; /* Evita que se salga algo */
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Sutil sombra */
     transition: transform 0.3s ease; /* Hover animación */
 }
 
