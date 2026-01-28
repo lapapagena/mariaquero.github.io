@@ -41,10 +41,10 @@ body {
 .projects {
     display: grid;
     grid-template-columns: 3fr;
-    gap: 40px;
+    gap: 20px;
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 /* PROYECTO */
@@ -98,8 +98,8 @@ body {
 /* RESPONSIVE */
 @media (min-width: 768px) {
     .projects {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 60px;
+        grid-template-columns: repeat(2, 3fr);
+        gap: 20px;
     }
 }
 
