@@ -24,8 +24,8 @@ body {
 .logo {
     display: block;
     width: 300px; /* TAMAÑO REAL */
-    height: auto;
-    max-width: auto; /* MUY IMPORTANTE */
+    height: 120;
+    max-width: 300; /* MUY IMPORTANTE */
 }
 
 /* INTRO */
