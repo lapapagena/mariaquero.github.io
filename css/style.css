@@ -52,8 +52,8 @@ body {
     display: flex; /* Permite ordenar contenido vertical */
     flex-direction: column; /* Imagen arriba, texto debajo */
     text-decoration: none;
-    color: inherit;
-    overflow: hidden; /* Evita que se salga algo */
+    /*color: inherit;*/
+    /*overflow: hidden; /* Evita que se salga algo */*/
     transition: transform 0.3s ease; /* Hover animación */
 }
 
