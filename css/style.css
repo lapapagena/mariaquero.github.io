@@ -41,8 +41,8 @@ body {
 .projects {
     display: grid;
     grid-template-columns: 3fr;
-    gap: 80px;
-    max-width: 1000px;
+    gap: 40px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
