@@ -96,6 +96,17 @@ body {
     grid-template-columns: repeat(3, 1fr); /* 3 columnas */
     gap: 40px; /* Espacio entre proyectos */
 }
+@media (max-width: 1024px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* FOOTER */
 .footer {
