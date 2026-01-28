@@ -1,48 +1,49 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <img src="images/title.png" alt="Maria Quero title" class="title" />
     <meta charset="UTF-8" />
-    <title>María Quero — Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maria Quero — Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png" />
 </head>
 
 <body>
-    <header>
-        <h1>María Quero</h1>
-        <p class="subtitle">
-            Visual artist<br />
-            Illustration · Design · Concept · Fonts
-        </p>
+
+    <header class="site-header">
+        <img src="images/logo.png" alt="Maria Quero logo" class="logo" />
     </header>
 
-    <main class="grid">
-        <!-- Project 1 -->
-        <a href="project.html" class="project">
-            <img src="images/project1/Diseño Postal_ María Pérez Quero-1.jpg" alt="Postal Malagueña" />
-            <div class="project-info">
-                <h2>Postal Malagueña</h2>
-                <span>Illustration</span>
-            </div>
-        </a>
+    <main class="container">
 
-        <!-- Project 2 -->
-        <a href="project.html" class="project">
-            <img src="images/project2/cover.jpg" alt="Project title" />
-            <div class="project-info">
-                <h2>Another Project</h2>
-                <span>Typography</span>
-            </div>
-        </a>
+        <section class="intro">
+            <p>
+                Visual artist working across illustration, design, audiovisual projects and typography.
+            </p>
+        </section>
+
+        <section class="projects">
+
+            <article class="project">
+                <img src="images/proyecto-1.jpg" alt="Project 1" />
+                <h2>Project title</h2>
+                <p>Short description of the project.</p>
+            </article>
+
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <p>
-            <a href="mailto:contact@mariaquero.com">contact@mariaquero.com</a><br />
-            <a href="https://www.linkedin.com/in/maría-pérez-quero-779619a6/" target="_blank">LinkedIn</a>
+            <a href="mailto:hola@mariaquero.com">contact@mariaquero.com</a> ·
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
         </p>
     </footer>
+
 </body>
 </html>
