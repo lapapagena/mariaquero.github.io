@@ -27,6 +27,12 @@ body {
     height: auto;
     max-width: 400px; /* MUY IMPORTANTE */
 }
+@media (max-width: 480px) {
+    .logo {
+        max-width: 80vw; /* nunca más ancho que la pantalla */
+        height: auto;
+    }
+}
 
 /* INTRO */
 .intro {
