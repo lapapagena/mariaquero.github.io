@@ -48,7 +48,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    max-width: 1300px; /* ESTE es el valor clave */
+    max-width: 1000px; /* ESTE es el valor clave */
     margin: 0 auto;
 }
 
